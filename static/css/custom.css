@@ -1,0 +1,22 @@
+.left_sidebar{background: rgb(247, 247, 247); height: calc(100vh - 35px); width: 250px; padding: 10px; float: left; margin-right: 20px; }
+.drag_option{border: rgb(238, 238, 238) solid 1px; border-radius: 5px; background: #fff; padding-top: 10px; margin: 5px; }
+.drag_option i{font-size: 15px; }
+.drag_option p{font-size: 12px;}
+.accordion-item,.accordion ,.accordion-body{background: none;}
+.accordion-button{background: none; padding: 10px; border: 0;}
+.accordion-body{ padding:10px;}
+.accordion-button:not(.collapsed) { color: #858585;  background-color: none !important;  box-shadow: none;}
+.accordion-item {  border: 1px solid rgb(199 197 197 / 13%);}
+.accordion-button:focus {background: none; box-shadow: none;}
+.drag_option:hover ,.drag_option.active{ cursor: move; color: #fff; background: linear-gradient( 90deg , #0072c1 0%, #00bbda 100%);}
+.left_sidebar .accordion-button{ color: #0072c1;}
+.design_section{ float: left; width: calc(100% - 290px); text-align: center;height: calc(100vh - 35px);;}
+.draghere{border: dotted 2px #858585; padding: 50px; margin: 20px 0; }
+.top_bar{ height: 35px; padding: 5px 20px; background: linear-gradient( 90deg , #0072c1 0%, #00bbda 100%);}
+.top_bar .menu_item{color: #f9fcff; text-decoration: none; cursor: pointer;}
+.accordion-button:not(.collapsed) { background: none;}
+.tabs{width: 100%; background: #f7f7f7; display: flex; border-radius: 0 0 8px 8px; list-style: none; padding: 0;}
+.tabs li{ font-size: 12px; margin:5px  10px 0 10px; padding: 5px 10px; cursor: pointer; border-radius: 5px 5px 0 0; color: #696868;}
+.tabs li:hover, .tabs li.active{background: #fff;}
+
+
